@@ -10,7 +10,7 @@ progress through the pipeline.
 
 When used in the :pipeline:`$group` stage, accumulators take as input a
 single expression, evaluating the expression once for each input
-document, and maintain their stage for the group of documents that
+document, and maintain their state for the group of documents that
 share the same group key.
 
 When used in the :pipeline:`$project` stage, the accumulators do not
